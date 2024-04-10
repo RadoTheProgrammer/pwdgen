@@ -26,8 +26,8 @@ def generate(syllables=6):
 def main():
     import argparse
     parser = argparse.ArgumentParser(description="A simple password generator")
-    parser.add_argument("-s","syllables", type=int, default=6, help="Number of syllables in the password")
-    parser.add_argument("-n","number", type=int, default=1, help="Number of passwords to generate")
+    parser.add_argument("-s","--syllables", type=int, default=6, help="Number of syllables in the password")
+    parser.add_argument("-n","--number", type=int, default=1, help="Number of passwords to generate")
     args = parser.parse_args()
     for _ in range(args.number):
         print(generate(args.syllables))
