@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pwd-gen"
+version = "1.0.0"
+description = "A simple password generator"
+authors = ["RadoTheProgrammer <rado@arazakar.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "pwdgen.py" }
+]
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+pwd-gen = "pwdgen:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
