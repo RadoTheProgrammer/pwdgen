@@ -1,6 +1,6 @@
 This is a generator of simple, strong, memorable and easy-to-type passwords.
 
-You can install it with `pip install pwd-gen` and use the cli version:
+You can install it with `pip install pwd-generator` and use the cli version:
 
 ```
 
