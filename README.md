@@ -4,7 +4,7 @@ You can install it with `pip install pwd-generator` and use the cli version:
 
 ```
 
-pwd-gen
+pwdgen
 ```
 
 Then the output would be like:
