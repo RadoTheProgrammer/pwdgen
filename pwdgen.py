@@ -4,8 +4,8 @@ A simple password generator
 
 
 import secrets
-CONSONANTS = "bcdfghjklmnpqrstvwxz"
-VOWELS = "aeiouy"
+CONSONANTS = "bcdfghjklmnpqrstvwxyz"
+VOWELS = "aeiou"
 SPECIAL_CHARS=".:;-!&*_+#,=" # #!$%^&*
 
 def generate(syllables=6):
